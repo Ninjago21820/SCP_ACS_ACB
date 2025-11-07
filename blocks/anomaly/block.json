@@ -1,0 +1,33 @@
+{
+  "apiVersion": 2,
+  "name": "anom/bar",
+  "title": "Anomaly Class Bar",
+  "category": "widgets",
+  "editorScript": "file:./editor.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "item": { "type": "string", "default": "106" },
+    "level": { "type": "string", "default": "Level3" },
+  "levelNumber": { "type": "number", "default": 3 },
+    "containment": { "type": "string", "default": "keter" },
+  "containmentIcon": { "type": "string", "default": "" },
+    "secondaryClass": { "type": "string", "default": "" },
+  "riskIcon": { "type": "string", "default": "" },
+    "disruption": { "type": "string", "default": "amida" },
+  "disruptionIcon": { "type": "string", "default": "" },
+    "risk": { "type": "string", "default": "critical" },
+    "clear": { "type": "number", "default": 3 },
+  "american": { "type": "boolean", "default": false },
+    "itemLabel": { "type": "string", "default": "Item#:" },
+    "containmentLabel": { "type": "string", "default": "Containment Class:" },
+    "secondaryLabel": { "type": "string", "default": "Secondary Class:" },
+  "disruptionLabel": { "type": "string", "default": "Disruption Class:" },
+  "riskLabel": { "type": "string", "default": "Risk Class:" },
+    "clear1Label": { "type": "string", "default": "Unrestricted" },
+    "clear2Label": { "type": "string", "default": "Restricted" },
+    "clear3Label": { "type": "string", "default": "Confidential" },
+    "clear4Label": { "type": "string", "default": "Secret" },
+    "clear5Label": { "type": "string", "default": "Top-Secret" },
+    "clear6Label": { "type": "string", "default": "Cosmic Top-Secret" }
+  }
+}
