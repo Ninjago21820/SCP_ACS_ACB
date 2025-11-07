@@ -1,159 +1,124 @@
-## EN: Anomaly Class Bar Block
+# Creative Commons Attribution-ShareAlike 3.0 Unported  
+## Licence CC BY-SA 3.0
 
-### EN: Description
+---
 
-This WordPress plugin provides a Gutenberg block for displaying an "Anomaly Class Bar". The block is rendered server-side and includes customizable attributes for containment, disruption, risk, and clearance levels. The plugin also supports per-block image overrides and admin-defined mappings for containment, disruption, and risk classes.
+> **AVIS IMPORTANT**  
+> Creative Commons Corporation (“Creative Commons”) n'est pas un cabinet d’avocats et ne fournit pas de conseils juridiques.  
+> Cette licence est fournie “en l’état”, sans garantie.  
 
-### EN: Features
+---
 
-- **Server-side rendering**: Ensures consistent output and compatibility with themes.
-- **Customizable attributes**: Includes containment, disruption, risk, and clearance levels.
-- **Admin-defined mappings**: Allows administrators to associate images and labels with specific containment, disruption, and risk classes.
-- **Per-block image overrides**: Supports custom images for containment, disruption, and risk classes.
-- **Dark mode compatibility**: Neutralizes unwanted dark mode transformations.
+# 1. Définitions
 
-### EN: Installation
+### **Adaptation**
+Une œuvre basée sur l’Œuvre originale, par exemple : traduction, remix, transformation, synchronisation avec une vidéo, etc.
 
-1. Download the plugin and place it in your WordPress `wp-content/plugins` directory.
+### **Collection**
+Un regroupement d’œuvres où l’Œuvre apparaît *sans modification* aux côtés d’autres œuvres.
 
-2. Activate the plugin through the WordPress admin dashboard.
+### **Distribuer**
+Mettre l’Œuvre ou une Adaptation à disposition du public, par vente ou tout autre transfert.
 
-3. Configure image mappings in the "Anom Bar" settings page.
+### **Licenciant**
+La ou les personnes ou entités fournissant l’Œuvre sous cette licence.
 
-### EN: Usage
+### **Auteur original**
+La ou les personnes qui ont créé l’Œuvre.
 
-#### EN: Adding the Block
+### **Œuvre**
+La création protégée (texte, image, musique, etc.) couverte par cette licence.
 
-1. In the WordPress editor, search for "Anomaly Class Bar" in the block library.
+### **Vous**
+Toute personne utilisant les droits accordés par cette licence.
 
-2. Add the block to your post or page.
+### **Exécution publique**
+Toute communication ou représentation de l’Œuvre au public, par tout moyen.
 
-3. Customize the attributes in the block settings panel:
+### **Reproduire**
+Faire des copies de l’Œuvre, par tout procédé.
 
-   - **Item**: Specify the anomaly item number.
+---
 
-   - **Containment**: Select the containment class.
+# 2. Droits d’usage légitimes
+Aucune disposition de cette licence ne vise à restreindre les exceptions légales au droit d’auteur (citation, parodie, etc.).
 
-   - **Disruption**: Select the disruption class.
+---
 
-   - **Risk**: Select the risk class.
+# 3. Octroi de licence
 
-   - **Clearance**: Automatically determined based on the level number.
+Le Licenciant vous accorde une licence mondiale, gratuite et non exclusive pour :
 
-#### EN: Admin Settings
+- **Reproduire** l’Œuvre  
+- **Créer des Adaptations**  
+- **Distribuer** l’Œuvre ou les Adaptations  
+- **Exécuter publiquement** l’Œuvre ou les Adaptations  
 
-1. Navigate to the "Anom Bar" settings page in the WordPress admin dashboard.
+### Clauses relatives aux rémunérations obligatoires  
+- Dans certains pays, certains droits ne peuvent pas être renoncés :  
+  - **Non renonçables** : le Licenciant conserve ces droits si la loi l’impose.  
+  - **Renonçables** : le Licenciant y renonce lorsque la loi le permet.  
+  - **Licences volontaires** : le Licenciant renonce généralement à la collecte via des sociétés de gestion.
 
-2. Configure image mappings for containment, disruption, and risk classes.
+---
 
-3. Save your changes.
+# 4. Restrictions
 
-### EN: Development
+### ✅ **Attribution (BY)**  
+Vous devez :  
+- créditer l’Auteur original,  
+- fournir un lien vers la licence,  
+- indiquer les modifications éventuelles.
 
-#### EN: File Structure
+### ✅ **Partage dans les mêmes conditions (SA)**  
+Toute Adaptation doit être partagée sous :  
+- la même licence **CC BY-SA 3.0**,  
+- ou une version ultérieure compatible,  
+- ou une licence Creative Commons officiellement compatible.
 
-- `blocks/anomaly/block.json`: Defines block attributes and metadata.
+### ⛔ **Interdictions**  
+Vous ne pouvez pas :  
+- ajouter des restrictions supplémentaires,  
+- imposer des verrous techniques (DRM),  
+- supprimer les mentions de licence.
 
-- `blocks/anomaly/editor.js`: Handles block editing in the Gutenberg editor.
+### ✅ **Respect de l’intégrité**
+Vous ne devez pas porter atteinte à l’honneur ou la réputation de l’Auteur.
 
-- `blocks/anomaly/style.css`: Contains styles for the block.
+---
 
-- `wp-anom-bar.php`: Main plugin file, handles server-side rendering and admin settings.
+# 5. Absence de garantie
 
-#### EN: Customization
+L’Œuvre est fournie **« telle quelle »**, sans aucune garantie, explicite ou implicite, y compris :  
+- qualité marchande,  
+- adéquation à un usage particulier,  
+- absence d’erreurs ou de défauts.
 
-- Modify `block.json` to add or remove attributes.
+---
 
-- Update `editor.js` to customize the block editor interface.
+# 6. Limitation de responsabilité
 
-- Edit `style.css` to change the appearance of the block.
+Le Licenciant ne pourra **en aucun cas** être tenu responsable de dommages directs, indirects ou autres, liés à l’utilisation de l’Œuvre.
 
-- Extend `wp-anom-bar.php` for additional server-side functionality.
+---
 
-### EN: License
+# 7. Résiliation
 
-This plugin is licensed under the `CC BY-SA 3.0` License.
+- En cas de violation des termes, la licence prend fin automatiquement.  
+- Si vous respectez les termes, la licence est accordée pour toute la durée du copyright applicable.
 
-### EN: Support
+---
 
-For issues or feature requests, please contact the plugin author or submit a request through the WordPress support forum.
+# 8. Divers
 
-## FR: Barre de Classe d'Anomalie
+- Chaque fois que vous distribuez l’Œuvre ou une Adaptation, le bénéficiaire reçoit automatiquement une licence identique.  
+- Aucune disposition n’est réputée abandonnée sans accord écrit.  
+- Si une clause est invalide, les autres restent en vigueur.  
 
-### FR: Description
+---
 
-Ce plugin WordPress fournit un bloc Gutenberg pour afficher une "Barre de Classe d'Anomalie". Le bloc est rendu côté serveur et inclut des attributs personnalisables pour le confinement, la perturbation, le risque et les niveaux d'autorisation. Le plugin prend également en charge les remplacements d'images par bloc et les mappages définis par l'administrateur pour les classes de confinement, de perturbation et de risque.
+# Avis Creative Commons
 
-### FR: Fonctionnalités
-
-- **Rendu côté serveur** : Assure une sortie cohérente et une compatibilité avec les thèmes.
-- **Attributs personnalisables** : Inclut le confinement, la perturbation, le risque et les niveaux d'autorisation.
-- **Mappages définis par l'administrateur** : Permet aux administrateurs d'associer des images et des étiquettes à des classes spécifiques de confinement, de perturbation et de risque.
-- **Remplacements d'images par bloc** : Prend en charge des images personnalisées pour les classes de confinement, de perturbation et de risque.
-- **Compatibilité avec le mode sombre** : Neutralise les transformations indésirables du mode sombre.
-
-### FR: Installation
-
-1. Téléchargez le plugin et placez-le dans le répertoire `wp-content/plugins` de votre WordPress.
-
-2. Activez le plugin via le tableau de bord d'administration de WordPress.
-
-3. Configurez les mappages d'images dans la page des paramètres "Anom Bar".
-
-### FR: Utilisation
-
-#### FR: Ajouter le Bloc
-
-1. Dans l'éditeur WordPress, recherchez "Barre de Classe d'Anomalie" dans la bibliothèque de blocs.
-
-2. Ajoutez le bloc à votre publication ou page.
-
-3. Personnalisez les attributs dans le panneau des paramètres du bloc :
-
-   - **Élément** : Spécifiez le numéro de l'élément d'anomalie.
-
-   - **Confinement** : Sélectionnez la classe de confinement.
-
-   - **Perturbation** : Sélectionnez la classe de perturbation.
-
-   - **Risque** : Sélectionnez la classe de risque.
-
-   - **Autorisation** : Déterminée automatiquement en fonction du numéro de niveau.
-
-#### FR: Paramètres Administrateur
-
-1. Accédez à la page des paramètres "Anom Bar" dans le tableau de bord d'administration de WordPress.
-
-2. Configurez les mappages d'images pour les classes de confinement, de perturbation et de risque.
-
-3. Enregistrez vos modifications.
-
-### FR: Développement
-
-#### FR: Structure des Fichiers
-
-- `blocks/anomaly/block.json` : Définit les attributs et les métadonnées du bloc.
-
-- `blocks/anomaly/editor.js` : Gère l'édition du bloc dans l'éditeur Gutenberg.
-
-- `blocks/anomaly/style.css` : Contient les styles pour le bloc.
-
-- `wp-anom-bar.php` : Fichier principal du plugin, gère le rendu côté serveur et les paramètres administratifs.
-
-#### FR: Personnalisation
-
-- Modifiez `block.json` pour ajouter ou supprimer des attributs.
-
-- Mettez à jour `editor.js` pour personnaliser l'interface de l'éditeur de blocs.
-
-- Modifiez `style.css` pour changer l'apparence du bloc.
-
-- Étendez `wp-anom-bar.php` pour des fonctionnalités supplémentaires côté serveur.
-
-### FR: Licence
-
-Ce plugin est sous licence `CC BY-SA 3.0`.
-
-### FR: Support
-
-Pour des problèmes ou des demandes de fonctionnalités, veuillez contacter l'auteur du plugin ou soumettre une demande via le forum de support WordPress.
+Creative Commons **n’est pas partie** à cette licence et décline toute responsabilité.  
+Pour la version officielle et complète :  
+**https://creativecommons.org/licenses/by-sa/3.0/legalcode**
